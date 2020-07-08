@@ -59,8 +59,8 @@
     transition: all .2s;
   }
   .btn:hover {
-    color: var(--color-light-white);
-    background-color: var(--color-tomato);
+    color:  #0F4C81;
+    background-color: #fff;
   }
   .btn:active {
     transform: scale(.95);
@@ -70,9 +70,7 @@
     background-color: #9FB7CD;
     transition: all .2s;
   }
-  .btn-large:hover {
-    
-  }
+  
   .btn-primary {
     color: #0B3961;
   }
