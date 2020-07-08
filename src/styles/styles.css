@@ -1,0 +1,81 @@
+.app {
+    height: 100vh;
+    width: 100%;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calculator {
+    height: 80vh;
+    width: 300px;
+    box-shadow: 1px 3px 6px #eee;
+    background-color: #fff;
+  }
+  .screen {
+    height: 25vh;
+    width: 100%;
+    color: #0B3961;
+    background-color:#F8EFE1;
+  }
+  .result-screen{
+    height: 19vh;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+  }
+  .computation-screen {
+    height: 6vh;
+    font-size: 20px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .keypad {
+    height: 55vh;
+    width: 100%;
+  }
+  .keypad-row {
+    height: 11vh;
+    width: 100%;
+    display: flex; 
+    color: #0F4C81;
+  }
+  .btn {
+    width: 25%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    border: 1px solid transparent;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+  }
+  .btn:hover {
+    color: var(--color-light-white);
+    background-color: var(--color-tomato);
+  }
+  .btn:active {
+    transform: scale(.95);
+  }
+  .btn-large {
+    width: 50%;
+    background-color: #9FB7CD;
+    transition: all .2s;
+  }
+  .btn-large:hover {
+    
+  }
+  .btn-primary {
+    color: #0B3961;
+  }
+  .btn-operator {
+    color: #1989E3;
+  }
